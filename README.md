@@ -5,17 +5,17 @@ It is similar to the [start-trellaux](https://github.com/TanStack/router/tree/ma
 
 To run this example:
 
-goto https://github.com/get-convex/convex-backend/releases/latest
+Goto https://github.com/get-convex/convex-backend/releases/latest
 
-download the zip file for your OS (e.g. convex-local-backend-x86_64-unknown-linux-gnu.zip for me)
-unzip it
-go into the directory and copy paste the binary file into the root directory of the project
+* Download the zip file for your OS (e.g. convex-local-backend-x86_64-unknown-linux-gnu.zip for me)
+* Unzip it
+* Go into the directory and copy paste the binary file into the root directory of the project
 
 ```sh
 curl https://sh.rustup.rs -sSf | sh
 pnpm install
 ./convex-local-backend
-(cargo install just)
+cargo install just
 just convex dev 
 pnpm dev:web
 ```
